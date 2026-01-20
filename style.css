@@ -429,4 +429,72 @@
   }
 }
 
+.host {
+  padding: 100px 40px;
+  background-color: #160824;
+  text-align: start;
+}
+
+.host-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.host-heading {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.host-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #2a0e46;
+  border-radius: 16px;
+
+}
+
+.host-img {
+  width: 185px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #2a0e46;
+}
+
+.host-content {
+  max-width: 700px;
+}
+
+.host-name {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.host-bio {
+  font-size: 14px;
+  color: #cfc6e2;
+  line-height: 1.7;
+  text-align: start;
+}
+
+.host-social {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #2a0e46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
