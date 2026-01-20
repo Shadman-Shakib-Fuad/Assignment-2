@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 .navbar {
   background: linear-gradient(180deg, #1b0b2e, #12061f);
@@ -125,6 +125,7 @@
       #1b0b2e 45%,
       #12061f 100%
     );
+}
 
 .podcast-circle {
   width: 220px;
@@ -185,5 +186,59 @@
 
   .banner-buttons {
     flex-direction: column;
+  }
+}
+
+.about {
+  padding: 80px 20px;
+  background-color: #1b0b2e;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.about-text {
+  font-size: 14px;
+  color: #cfc6e2;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #2a0e46;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+}
+
+.stat-box h3 {
+  font-size: 30px;
+  color: #19ff9b;
+  margin-bottom: 6px;
+}
+
+.stat-box p {
+  font-size: 13px;
+  color: #cfc6e2;
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 60px 15px;
+  }
+
+  .stat-box {
+    width: 45%;
   }
 }
